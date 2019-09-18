@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://sourceforge.net/projects/gwyddion/files/gwyddion/2.53/gwyddion-2.53.tar.xz",
-                    "md5": "310733ff22ed978912195d5ac60b3bae"
+                    "url": "http://sourceforge.net/projects/gwyddion/files/gwyddion/2.54/gwyddion-2.54.tar.xz",
+                    "md5": "2fd4165a95826a03c160b0311d1181b1"
                 },
                 {
                     "type": "file",
@@ -75,8 +75,7 @@
                 }
             ],
             "post-install": [
-                "mkdir -p /app/share/metainfo/",
-                "cp net.gwyddion.Gwyddion.appdata.xml /app/share/metainfo/"
+                "install -D net.gwyddion.Gwyddion.appdata.xml /app/share/metainfo/"
             ]
                     
         }
