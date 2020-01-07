@@ -70,9 +70,6 @@
                     "md5": "91d7f7cdc2fb46ec639f87349425d3d2"
                 }
             ],
-            "post-install": [
-                "install -D data/net.gwyddion.Gwyddion.appdata.xml /app/share/metainfo/"
-            ]
                     
         }
     ]
