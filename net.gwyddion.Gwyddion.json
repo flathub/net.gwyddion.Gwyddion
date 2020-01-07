@@ -66,7 +66,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://sourceforge.net/projects/gwyddion/files/gwyddion/2.54/gwyddion-2.54.tar.xz",
+                    "url": "http://sourceforge.net/projects/gwyddion/files/gwyddion/2.55/gwyddion-2.55.tar.xz",
                     "md5": "2fd4165a95826a03c160b0311d1181b1"
                 },
                 {
