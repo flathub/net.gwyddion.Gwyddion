@@ -25,7 +25,7 @@
                 }
             ]
         },
-        "shared-modules/glu/glu-9.0.0.json",
+        "shared-modules/glu/glu-9.json",
         {
             "name": "gtkglext",
             "rm-configure": true,
