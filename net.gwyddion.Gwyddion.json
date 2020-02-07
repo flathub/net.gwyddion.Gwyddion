@@ -16,12 +16,13 @@
     "modules": [     
         "shared-modules/gtk2/gtk2.json",
         {
-            "name": "pangox-compat",
+            "name": "pango",
+            "buildsystem": "meson",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://ftp.gnome.org/pub/GNOME/sources/pangox-compat/0.0/pangox-compat-0.0.2.tar.xz",
-                    "sha256": "552092b3b6c23f47f4beee05495d0f9a153781f62a1c4b7ec53857a37dfce046"
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/pango/1.44/pango-1.44.7.tar.xz",
+                    "sha256": "66a5b6cc13db73efed67b8e933584509f8ddb7b10a8a40c3850ca4a985ea1b1f"
                 }
             ]
         },
