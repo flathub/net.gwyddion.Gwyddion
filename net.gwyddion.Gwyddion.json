@@ -1,7 +1,7 @@
 {
     "app-id": "net.gwyddion.Gwyddion",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.38",
     "sdk": "org.gnome.Sdk",
     "command": "gwyddion",
     "copy-icon": true,
@@ -11,22 +11,29 @@
         "--share=ipc",
         "--socket=x11"
     ],
-    "modules": [     
+    "modules": [
         "shared-modules/gtk2/gtk2.json",
         "shared-modules/glu/glu-9.json",
         "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "gwyddion",
             "config-opts": [
-                    "--without-ruby"
+                "--without-ruby"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://sourceforge.net/projects/gwyddion/files/gwyddion/2.55/gwyddion-2.55.tar.xz",
-                    "md5": "91d7f7cdc2fb46ec639f87349425d3d2"
+                    "url": "http://sourceforge.net/projects/gwyddion/files/gwyddion/2.56/gwyddion-2.56.tar.xz",
+                    "md5": "5f9fdb773fbaf3270b472de6081dd3a8"
+                },
+                {
+                    "type": "file",
+                    "path": "gwyddion.png"
                 }
-            ]                    
+            ],
+            "post-install": [
+                "install -D gwyddion.png /app/share/icons/hicolor/128x128/apps/net.gwyddion.Gwyddion.png"
+            ]
         }
     ]
 }
