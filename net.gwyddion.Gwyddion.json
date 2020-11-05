@@ -25,6 +25,10 @@
                     "type": "archive",
                     "url": "http://sourceforge.net/projects/gwyddion/files/gwyddion/2.56/gwyddion-2.56.tar.xz",
                     "md5": "5f9fdb773fbaf3270b472de6081dd3a8"
+                },
+                {
+                    "type": "file",
+                    "path": "gwyddion.png"
                 }
             ],
             "post-install": [
