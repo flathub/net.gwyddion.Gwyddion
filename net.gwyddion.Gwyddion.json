@@ -69,7 +69,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://iweb.dl.sourceforge.net/project/gwyddion/gwyddion/2.57/gwyddion-2.57.tar.xz",
+                    "url": "https://netactuate.dl.sourceforge.net/project/gwyddion/gwyddion/2.57/gwyddion-2.57.tar.xz",
                     "md5": "885519ece6581e12e28c0fbec9553e69",
                     "x-checker-data": {
                         "type": "rotating-url",
