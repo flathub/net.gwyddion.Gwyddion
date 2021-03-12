@@ -70,7 +70,13 @@
                 {
                     "type": "archive",
                     "url": "https://sourceforge.net/projects/gwyddion/files/gwyddion/2.57/gwyddion-2.57.tar.xz",
-                    "md5": "885519ece6581e12e28c0fbec9553e69"
+                    "md5": "885519ece6581e12e28c0fbec9553e69",
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://sourceforge.net/projects/gwyddion/rss",
+                        "pattern": "<link>(https://sourceforge.net/.+/gwyddion-([\\d\\.]+\\d).tar.gz)/download</link>",
+                        "sort-matches": false
+                    }
                 },
                 {
                     "type": "file",
