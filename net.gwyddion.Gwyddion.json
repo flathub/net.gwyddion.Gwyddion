@@ -69,14 +69,15 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://sourceforge.net/projects/gwyddion/files/gwyddion/2.57/gwyddion-2.57.tar.xz",
+                    "url": "https://sourceforge.net/projects/gwyddion/files/gwyddion/2.58/gwyddion-2.58.tar.gz",
                     "md5": "885519ece6581e12e28c0fbec9553e69",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://sourceforge.net/projects/gwyddion/rss",
                         "pattern": "<link>(https://sourceforge.net/.+/gwyddion-([\\d\\.]+\\d).tar.gz)/download</link>",
                         "sort-matches": false
-                    }
+                    },
+                    "sha256": "4baceae3cc55e01b0aec8b86ee85bc9d838f2fab7c620467e2909fb63e11f81e"
                 },
                 {
                     "type": "file",
