@@ -144,8 +144,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://sourceforge.net/projects/gwyddion/files/gwyddion/2.59/gwyddion-2.59.tar.gz",
-                    "sha256": "b777eaa9a53a971c55a5ae2f7cd6695d1dbde78ffb84b9cf8885361400f051c7",
+                    "url": "https://sourceforge.net/projects/gwyddion/files/gwyddion/2.60/gwyddion-2.60.tar.gz",
+                    "sha256": "1ec7f188d65d0d7276157400f0e9661fb13243a923cc65eea58fe1ec3d8d900d",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://sourceforge.net/projects/gwyddion/rss",
