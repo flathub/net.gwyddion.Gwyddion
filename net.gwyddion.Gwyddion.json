@@ -156,6 +156,10 @@
                 {
                     "type": "file",
                     "path": "gwyddion.png"
+                },
+                {
+                    "type": "patch",
+                    "path": "appstream.patch"
                 }
             ],
             "post-install": [
