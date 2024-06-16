@@ -1,12 +1,13 @@
 diff --git a/data/net.gwyddion.Gwyddion.appdata copy.xml b/data/net.gwyddion.Gwyddion.appdata.xml
-index 25a85b9..877d842 100644
+index 25a85b9..cd79325 100644
 --- a/data/net.gwyddion.Gwyddion.appdata copy.xml	
 +++ b/data/net.gwyddion.Gwyddion.appdata.xml
-@@ -32,4 +32,7 @@
+@@ -32,4 +32,8 @@
        <release version="2.66" date="2024-05-24" type="stable" />
    </releases>
    <url type="homepage">http://gwyddion.net/</url>
 +  <developer id="net.gwyddion">
 +    <name>The Gwyddion developers</name>
 +  </developer>
++  <launchable type="desktop-id">net.gwyddion.Gwyddion.desktop</launchable>
  </component>
