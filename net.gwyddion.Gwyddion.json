@@ -90,8 +90,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://sourceforge.net/projects/gwyddion/files/gwyddion/2.67/gwyddion-2.67.tar.gz",
-                    "sha256": "9d3346a046b47b30fee8dbf110378aa29896dec12acc86375a54aea67db1933d",
+                    "url": "https://sourceforge.net/projects/gwyddion/files/gwyddion/2.68/gwyddion-2.68.tar.gz",
+                    "sha256": "69a5e5e8678d37fb022a94b3f4313a59fc4b478dd21425059ad64ae94be7dceb",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://sourceforge.net/projects/gwyddion/rss",
