@@ -31,15 +31,15 @@
                 },
                 {
                     "type": "patch",
-                    "path": "gtk2.20.patch"
+                    "path": "patches/gtk2.20.patch"
                 },
                 {
                     "type": "patch",
-                    "path": "gtkglext-gcc8.patch"
+                    "path": "patches/gtkglext-gcc8.patch"
                 },
                 {
                     "type": "patch",
-                    "path": "no-pangox-taken-from-arch.patch"
+                    "path": "patches/no-pangox-taken-from-arch.patch"
                 },
                 {
                     "type": "script",
@@ -74,7 +74,7 @@
                 },
                 {
                     "type": "patch",
-                    "path": "appstream.patch"
+                    "path": "patches/appstream.patch"
                 }
             ],
             "post-install": [
