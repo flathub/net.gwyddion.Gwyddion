@@ -9,8 +9,7 @@
     "rename-desktop-file": "gwyddion.desktop",
     "finish-args": [
         "--share=ipc",
-        "--socket=x11",
-        "--filesystem=home"
+        "--socket=x11"
     ],
     "modules": [
         "shared-modules/pygtk/pygtk.json",
